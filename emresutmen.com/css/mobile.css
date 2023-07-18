@@ -1,0 +1,59 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    overflow: hidden;
+    height: 80px;
+}
+#navbar ul li{
+    
+        font-size:12px;
+
+
+}
+.portfolioimg{
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 320px) {
+    .btntiny{
+        margin-top: 1.25rem;
+        padding: 0.8rem 2rem;
+        border-radius: 7px;
+        letter-spacing: 1px;
+    }
+    
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+#homemid .items{
+    flex-direction: column;
+   
+}
+#homemid .items .item{
+    width: 100%;
+}
+.introdiv{
+    background: #062e51;
+}
+.introdiv h2{
+    color: white;
+}
+.introdiv p{
+    color: white;
+    padding: 0.3rem;
+}
+.exps .exp{
+    flex-direction: column;
+}
+.video{
+    display: none;
+}
+.videotitle{
+    display: none;
+}

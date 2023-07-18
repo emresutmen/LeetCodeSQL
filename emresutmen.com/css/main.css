@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: "Open Sans", sans-serif;
+}
+/* Navbar section */
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;  /* instead of margin left auto i use this */
+    align-items: center;
+    padding: 0 0.75rem; /* 12 px */
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 5px;
+}
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+#home .name h2{
+    color: white;
+    margin-bottom: 0.60rem;
+}#home .name p{
+    color: white;
+    opacity: 0.6;
+    font-style: italic;
+    font-weight: bold;
+   
+}
+#homemob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#homemob img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid #062e51;
+}
+#homemob .name h2{
+    color: black;
+    margin-bottom: 0.60rem;
+}#homemob .name p{
+    color: black;
+    opacity: 0.6;
+    font-style: italic;
+    font-weight: bold;
+   
+}
+/* About */
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+#about img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+#about .name h2{
+    color: white;
+    margin-bottom: 0.60rem;
+}#about .name p{
+    color: white;
+    opacity: 0.6;
+    font-style: italic;
+    font-weight: bold;
+   
+}
+
+.btninx{
+    display: flex;
+    align-items: center;
+    
+    
+    }
+    .btninx ul{
+        margin-top: 1.50rem ;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    .btninx ul li {
+        padding: 0.5rem;
+
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+   #banner{
+       width: 100%;
+       background-size: cover;
+   }
+   .introdiv{
+       border-bottom: 1px solid white;
+       padding-bottom: 2rem;
+   }
+   .introduction{
+       text-align: center;
+       font-weight: lighter;
+     padding: 1rem;
+   }
+   .intro{
+    text-align: center;
+    font-style: oblique;
+    font-weight: 500;
+   }
+   #homemid{
+      
+    padding: 2rem;
+    color: white;
+   }
+   #homemid .items{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+     
+   }
+   #homemid .items .item{
+       width: 33%;
+       text-align: center;
+       padding: 0.3rem;
+   }
+   
+   #homemid .items .item:hover{
+       color: rgb(250, 226, 92);
+   }
+#homemid a:hover{
+    color: rgb(250, 226, 92);
+
+}
+
+   footer {
+      
+    padding: 2rem;
+    color: white;
+    border-top: 1px solid white;
+    margin-top: auto;
+  
+   }
+   footer .items{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+     
+   }
+   footer  .items .item{
+       width: 25%;
+       text-align: center;
+       padding: 0.3rem;
+   }
+   footer  h5{
+       
+  font-weight: lighter;
+  font-size: medium;
+  
+}
+
+   
+   footer .items .item:hover{
+       color: rgb(250, 226, 92);
+   }
+   .footerbot{
+       padding-top: 1rem;
+       text-align: center;
+       font-size: x-small;
+   }
+   #experience{
+       color: #333;
+       padding: 1rem;
+   }
+   .exps{
+       display: flex;
+       flex-direction: column;
+       padding: 1rem;
+   }
+   .exps .exp{
+       display: flex;
+       padding: 0.5rem;
+       margin-bottom: 0.5rem;
+ }
+ .exp img{
+     border: 2px solid #062e51;
+     border-radius: 20px;
+ }
+ .exp .description{
+     padding: 0.4rem;
+   
+ }
+ .exp-info{
+     padding: 0.3rem;
+ }
+ 
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #062e51;
+    color: white;
+  }
+  .about-section p {
+      margin-bottom: 1rem;
+  }
+  #contact{
+      background: #062e51;
+      color: white;
+      padding: 1rem;
+  }
+  .contact-form{
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+  }
+  #contact ul{
+      max-width: 150px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact ul li:hover{
+    opacity: 0.8;
+}
+.portfolio{
+    margin-bottom: 10rem;
+}
+.footernav ul{
+    list-style-type: none;
+}
+.footernav li a:hover{
+    color: rgb(250, 226, 92);
+}
+.footernavsoc li{
+    margin-bottom: 0.71rem;
+}
+.denceitem{
+    max-width: 300px;
+}
+.video{
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+  
+  
+  .exp-image:hover {
+    transform: scale(1.05); }
+    .portfolioimg{
+        margin-right: 3rem;
+    }
+    .portfolioimg:hover{
+        transform: scale(1.2500); 
+
+    }
